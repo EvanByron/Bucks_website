@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bahiana&display=swap');
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+    background-color:#2C5234;
+    color: #EEE1C6;
+    font-family: Georgia, serif;
+    padding: 20px;
+}
+h1 {
+    font-family: 'Bahiana', cursive;
+    font-size: 4em;
+    color:#EEE1C6;
+    text-align: center;
+    text-shadow: 4px 4px 0 #1E1E1E;
+    margin-bottom: 20px;
+}
+h2 {
+font-family:'Bahiana', cursive; 
+font-size: 1.8em;
+color:#EEE1C6;
+text-align: center;
+letter-spacing: 2px;
+margin-bottom: 15px;
+}
+h3 { font-size: 1.1em; color:#EEE1C6; margin-bottom: 8px;}
+p { color:#EEE1C6; margin-bottom: 8px;}
+main { max-width: 900px; margin: 0 auto; }
+.shop-btn {
+ font-family:'Bahiana', cursive;
+ display: block;   
+ background-color: #1E1E1E;
+ color: #EEE1C6;
+ text-align: center;
+ text-decoration: none;
+ text-transform: uppercase;
+ letter-spacing: 4px ;
+ padding: 16px;
+ border-radius: 10px;
+ margin-bottom: 20px;
+ font-size: 1.5em;
+}
+.card {
+    background-color: #1E1E1E;
+    border-radius: 14px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.bucks-shop 
+.Bucks-shop-btn {
+    display: block;
+    background-color: #702F8A;
+    color: #EEE1C6;
+    font-family:'Bahiana', cursive;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: none;
+    padding: 2rem;
+    border-radius: 16px;
+}
+
+.highlights {
+ display: flex ; gap: 16px; justify-content:space-between; }
+.highlight-item { flex: 1;display: flex;flex-direction: column;}
+.highlight-item img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 8px;
+}
+.highlights-btn {
+ display: block;   
+ background-color: #702F8A;
+ color: #EEE1C6;
+ text-align: center;
+ text-decoration: none;
+ text-transform: uppercase;
+ letter-spacing: 4px ;
+ padding: 16px;
+ border-radius: 10px;
+ margin-bottom: 20px;
+ font-family: 'bahiana', cursive;
+font-size: 1.3em;
+margin-top: auto;
+}
+
+
+.roster-buttons {display: flex; gap: 16px; justify-content: space-between;}
+.roster-btn {
+    flex:1;
+    display: block;
+    background-color: #702F8A;
+    color: #EEE1C6;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 18px 10px;
+    border-radius: 10px;
+    border-radius: 10px;
+    font-family: 'bahiana', cursive;
+    font-size: 1.3em;
+}
