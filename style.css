@@ -46,18 +46,7 @@ main { max-width: 900px; margin: 0 auto; }
     padding: 20px;
     margin-bottom: 30px;
 }
-.bucks-shop 
-.Bucks-shop-btn {
-    display: block;
-    background-color: #702F8A;
-    color: #EEE1C6;
-    font-family:'Bahiana', cursive;
-    font-size: 2rem;
-    text-align: center;
-    text-decoration: none;
-    padding: 2rem;
-    border-radius: 16px;
-}
+
 
 .highlights {
  display: flex ; gap: 16px; justify-content:space-between; }
