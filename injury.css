@@ -1,0 +1,30 @@
+.card h2{
+    display: inline-block;
+    background-color:#702F8A ;
+    color:#EEE1C6 ;
+    font-family:'Bahiana', cursive ;
+    font-size: 1.6em;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border-radius: 40px;
+    text-align: center;
+    margin: 0 auto 16px auto;
+    display:block;
+    width:fit-content;
+}
+.report-block{
+background-color: #702F8A;  
+border-radius: 14px;
+padding: 20px 30px;
+margin-bottom: 30px;
+text-align: center;
+}
+.report-block p {
+  font-family: 'Bahiana', cursive;
+font-size: 1.35em;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #EEE1C6;
+margin-bottom:6px ;
+}
