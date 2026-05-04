@@ -1,0 +1,22 @@
+.stats-row {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    margin-bottom: 18px;
+    font-family:'Bahiana', cursive ;
+    font-size: 1.4em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color:#EEE1C6 ;
+}
+.stats-row::after{
+    content:  '';
+    flex:1;
+    border-bottom: 2px dashed #EEE1C6;
+    margin: o 8px 4px 8px;
+    order:2;
+}
+.stat-line{
+    order:3;
+    white-space:nowrap;
+}
