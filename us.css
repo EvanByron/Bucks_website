@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bahiana&display=swap');
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+    background-color: #2C5234;
+    color: #EEE1C6;
+    font-family: Georgia, serif;
+    padding: 20px;
+}
+h1 {
+    font-family: 'Bahiana', cursive;
+    font-size: 4em;
+    color: #EEE1C6;
+    text-align: center;
+    margin-bottom: 20px;
+}
+main { max-width: 900px; margin: 0 auto; }
+.about-columns {
+    display:grid;
+    gap: 30px;
+}
+.about-col {
+    flex: 1;
+    display:grid;
+    flex-direction: column;
+    gap: 16px;
+}
+.col-header {
+    font-family: 'Bahiana', cursive;
+    font-size: 1.5em;
+    color: #EEE1C6;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+}
+.col-body {
+    background-color: #702F8A;
+    border-radius: 14px;
+    padding: 15px;
+    font-family: 'Bahiana', cursive;
+    font-size: 1.2em;
+    color: #EEE1C6;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    flex: 1;
+}
+.outer-card {
+    background-color: #1E1E1E;
+    border-radius: 14px;
+    padding: 25px;
+}
